@@ -1,7 +1,5 @@
 # BachelorsThesis_SyntheticClinicalData
 
-### **Project type:** Bachelor Thesis
-
 ### **Title:** Generation and validation of synthetic data from clinical data in a hospital emergency department 
 
 ### **Author:** *Raquel Hernanz Hernández*
@@ -12,17 +10,17 @@
 
 ### **Entities:** Superior Polytechnic School, CEU San Pablo, Madrid; Biomedical Research Foundation of La Princesa University Hospital, Madrid.  
 
-### **Brief description:** Bachelor Thesis repository based on the generation of synthetic clinical data
+### **Brief description:** Bachelor Thesis repository based on the generation of synthetic clinical data from the Emergency Department at La Princesa University Hospital
 
 ### **Contents of the repository:**
-#### - Preliminary view of the dtatasets
-#### - Exploratory Data Analysis
 #### - Dataset modifications
+#### - Exploratory Data Analysis (including)
 #### - Synthetic Data Generation 
-#### - Evaluation (statistics, model performance, re-identfication risk)
+#### - Evaluation of the Synthetic Data (fidelity, utility based on model performance, privacy and re-identification risk)
 
-### 1st dataset: Notebooks 1,2,3
-### 2snd dataset: Notebooks 4-...
+### Preprocessing Pipeline - Notebooks 1,2,3,4
+### Synthetic Data Generation Pipeline - Notebooks 
+### Evaluation of Synthetic Data - Notebooks 
 
 ### **Abstract:**
 
