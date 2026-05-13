@@ -1,12 +1,12 @@
 # *BachelorsThesis_SyntheticClinicalData*
 
-### `Title:` Generation and validation of synthetic data from clinical data in a hospital emergency department 
+### `Title:` Generation and validation of synthetic data from prehospital data
 ---
 ### `Author:` *Raquel Hernanz Hernández*
 ---
 ### `Degree:` Biomedical Engineering
 ---
-### `Supervisors:` *José María Herrera* and *Guillermo José Ortega*
+### `Supervisors:` *José María Herrera* and *Guillermo José Ortega Rabbione*
 ---
 ### `Entities:` Superior Polytechnic School, CEU San Pablo, Madrid; Health Research Institute (IIS-IP) at Hospital Universitario de La Princesa, Madrid.  
 ---
@@ -40,7 +40,7 @@
 ---
 ### `How to run the notebooks`
 
-> **Step 1 — Mount Google Drive** (executed automatically by each notebook). Although it is not necesary for accesing the `/content` folder, it is essential for exporting tables and plots to Google Drive (`/content/drive/MyDrive/Colab Notebooks/TFG`). Should be noted the source and synthetic datasets are kept locally in the Data Analysis Unit computer and only uploaded temporary to the `/content` folder when executing the notebooks. 
+> **Step 1 — Mount Google Drive** (executed automatically by each notebook). Although it is not necesary for accesing the `/content` folder, it is essential for exporting tables and plots to Google Drive (`/content/drive/MyDrive/Colab Notebooks/TFG`). Should be noted the source datasets are kept locally in the Data Analysis Unit computer and only uploaded temporary to the `/content` folder when executing the notebooks. 
  
 > **Step 2 — Edit paths** in the `SHARED CONFIGURATION` cell of each notebook (Section 2). For example: 
 RAW_DATA_PATH   = "/content/..."   # Path to raw Excel file (NB1 only)
@@ -83,8 +83,7 @@ This work aims to assess the feasibility of synthetic data as a safe alternative
 
 ### `Resumen:`
 > El uso de datos clínicos reales en investigación y docencia está limitado por restricciones legales y éticas relacionadas con la privacidad del paciente, especialmente en entornos sensibles como los servicios de urgencias hospitalarias. Estas limitaciones dificultan el desarrollo y validación de modelos predictivos basados en datos reales.
-El objetivo de este Trabajo Fin de Grado es desarrollar un generador de datos sintéticos a partir de datos clínicos reales procedentes de un servicio de urgencias hospitalarias, con el fin de preservar las características estadísticas relevantes de los datos originales y reducir el riesgo de reidentificación de los pacientes.
-La metodología propuesta incluye la selección y el preprocesamiento de variables demográficas, clínicas y asistenciales, así como la generación de datos sintéticos mediante modelos estadísticos de referencia y modelos generativos avanzados para datos tabulares. La evaluación del conjunto sintético se plantea mediante comparaciones estadísticas entre datos reales y sintéticos, análisis de utilidad entrenando modelos predictivos en datos sintéticos y evaluándolos sobre datos reales, y métricas orientadas a la preservación de la privacidad.
+El objetivo de este Trabajo Fin de Grado es desarrollar un generador de datos sintéticos a partir de datos clínicos reales procedentes de un servicio de urgencias hospitalarias, con el fin de preservar las características estadísticas relevantes de los datos originales y reducir el riesgo de reidentificación de los pacientes. La metodología propuesta incluye la selección y el preprocesamiento de variables demográficas, clínicas y asistenciales, así como la generación de datos sintéticos mediante modelos estadísticos de referencia y modelos generativos avanzados para datos tabulares. La evaluación del conjunto sintético se plantea mediante comparaciones estadísticas entre datos reales y sintéticos, análisis de utilidad entrenando modelos predictivos en datos sintéticos y evaluándolos sobre datos reales, y métricas orientadas a la preservación de la privacidad.
 Este trabajo pretende analizar la viabilidad del uso de datos sintéticos como una alternativa segura para la investigación y la docencia en el ámbito clínico, particularmente en contextos con fuertes restricciones de acceso a datos reales.
 
 
